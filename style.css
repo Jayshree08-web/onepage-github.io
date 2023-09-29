@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+html
+{
+  scroll-behavior: smooth;
+}
+nav
+{
+  width: 100%;
+  padding: 10px;
+  /*background: pink;*/
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  position: fixed;
+  top: 0;
+}
+
+main
+{
+  max-width: 1200px;
+  width: 100%;
+  /*padding: 10px;*/
+  /*background: #333;*/
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head 
+{
+  letter-spacing: 1px;
+
+}
+
+.chng
+{
+  color: lightgrey;
+  letter-spacing: 1px;
+
+}
+
+.ulist li 
+{
+  display: inline-block;
+  padding: 8px;
+}
+
+.ulist li a 
+{
+  color: #fff;
+}
+
+input[type=checkbox] ,#lchk
+{
+  display: none;
+}
+
+.brd 
+{
+  border: 2px solid grey;
+  border-radius: 30px;
+  padding: 10px 14px;
+}
+
+
+.fab 
+{
+  font-size: 20px;
+  
+}
+
+/*----------------------Home------------------------------------*/
+
+#home 
+{
+  width: 100%;
+  height: 100vh;
+background-image: url(img/portfolio/198.jpg);
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.center
+{
+  max-width: 620px;
+  width: 100%;
+padding: 20px;
+/*background: crimson;*/
+text-align: center;
+color: #fff;
+}
+.heading 
+{
+  font-size: 38px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+.para 
+{
+  font-size: 14px;
+  word-spacing: 2px;
+}
+.btn 
+{
+  width: 170px;
+  padding: 10px 14px;
+  border-radius: 22px;
+  background:linear-gradient(115deg,purple,blue);
+  margin: 12px auto;
+  color: #fff;
+  text-align: center;
+}
+
+
+/*--------------------------- best code part-------------------------------*/
+.homecontainer
+{
+  width: 100%;
+  /*padding: 10px;*/
+  /*background: coral;*/
+  display: flex;
+  flex-wrap: wrap;
+}
+.homepart
+{
+  width: 50%;
+  background-image: url(img/bg.jpg);
+    background-size: cover;
+  background-position: center;
+  padding: 80px;
+}
+
+.homepart1
+{
+  width: 50%;
+  background-image: url(img/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 80px;
+}
+.homeheading 
+{
+  font-size: 28px;
+  word-spacing: 3px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.clr 
+{
+  color: #fff;
+
+}
+.homepara 
+{
+  line-height: 1.9;
+  color: lightgrey;
+}
+.homebtn
+{
+  width: 170px;
+  padding: 10px 14px;
+  border-radius: 22px;
+  background:linear-gradient(115deg,purple,blue);
+  margin-top: 40px;
+  color: #fff;
+  text-align: center;
+}
+/*-------------------------------------------------------*/
+   #offer
+   {
+    width: 100%;
+    padding: 60px;
+    /*background: coral;*/
+   }
+   .offerhead 
+   {
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+   }
+  .offerbox,.teamcontainer
+  {
+   max-width: 1200px;
+   width: 100%;
+   padding: 20px;
+   /*background: teal;*/
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+  }
+
+  .offerpart 
+  {
+    width: calc(50% - 10px);
+    padding: 10px;
+    background: #fff;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .icon 
+  {
+    width: 30%;
+    padding: 10px;
+    /*background: aqua;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon i 
+  {
+    font-size: 75px!important;
+    color: lightgrey;
+  }
+
+  .offerpara 
+  {
+    width: 70%;
+    padding: 10px;
+    /*background: yellow;*/
+  }
+  .offerpara h2 
+  {
+    margin-bottom: 20px;
+  }
+   
+   .offerpara p 
+   {
+    line-height: 1.7;
+    font-weight: 400;
+    color: #333;
+
+   }
+   /*---------------------------------------------*/
+   #about 
+   {
+    width: 100%;
+    padding: 100px 20px;
+    background-image: url(img/portfolio/8.jpeg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .centerbox 
+   {
+      max-width: 650px;
+      width: 100%;
+      padding: 20px;
+      /*background: coral;*/
+      color: #fff;
+      text-align: center;
+   }
+
+   .centerbox .para 
+   {
+    font-size: 18px;
+    margin: 30px 0px;
+   } 
+
+/*----------------------About---------------------------------*/
+#team
+{
+  width: 100%;
+  padding: 50px;
+  background-image: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.teambox 
+{
+  max-width: 800px;
+  width: 100%;
+  padding: 10px;
+  /*background: pink;*/
+  margin: auto;
+  color: #fff;
+}
+
+.teambox h1 
+{
+  font-size: 34px;
+}
+.teambox p 
+{
+  word-spacing: 2px;
+  line-height: 1.7;
+}
+.teampart 
+{
+  width:calc(25% - 10px);
+  padding: 10px;
+  /*background: pink;*/
+  color: #fff;
+}
+.teamimg 
+{
+  width: 120px;
+  height: 120px;
+  padding: 5px;
+  background: #fff;
+  border-radius: 50%;
+  margin: auto;
+}
+.teamimg img 
+{
+  width: 100%;
+  height: 100%;
+
+}
+.teampart h3 
+{
+  margin: 7px 0px;
+}
+.teampart p 
+{
+  font-size: 13px;
+}
+
+
+/*----------------------------Media -------------------------*/
+@media(max-width: 968px)
+{
+   .teampart 
+  {
+    width: calc(50% - 10px);
+  }
+
+}
+
+
+/*-----------------------------------------------------------*/
+@media(max-width: 768px)
+{
+  main 
+  {
+    flex-direction: column;
+  }
+ 
+
+  .icon,.offerpara,.offerpart, .homepart, .homepart1 , .teampart
+  {
+    width: 100%;
+    text-align: center;
+  }
+  
+
+
+ 
+}
+
+/*--------------------------------------------------------------*/
+@media(max-width: 600px)
+{
+ #lchk
+  {
+    display: block;
+    cursor: pointer;
+  }
+  main 
+  {
+    padding: 10px;
+    flex-direction:row;
+  }
+
+
+   .ulist
+  {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    transition: 0.7s;
+
+  }
+  .ulist li 
+  {
+    display: block;
+    padding: 10px;
+  }
+  .brd 
+  {
+    
+    border: none;
+  }
+
+   #chk:checked ~ .ulist
+  {
+    left: 0;
+  }
+
+  
+
+}
